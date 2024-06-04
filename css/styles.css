@@ -1,19 +1,15 @@
-header{
-    background-color: purple;
-    padding: 5px;
+ul{
+    list-style: none;   
 }
 
+li{
+    list-style: none;
+}
 section{
-    background-color: red;
-    padding: 5px;
+    background:gold;
 }
 
-section.feature-box{
-    background-color: yellow;
-    text-align:right;
-}
 
 footer{
-    background-color: blue;
-    padding: 5px;
+    background:lime;
 }

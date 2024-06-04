@@ -10,10 +10,7 @@ section{
 
 section.feature-box{
     background-color: yellow;
-}
-
-section.feature-box.div{
-    background-color: aqua;
+    text-align:right;
 }
 
 footer{

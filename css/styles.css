@@ -1,24 +1,22 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-}
-main {
-    padding: 1em;
-}
-form {
-    max-width: 300px;
-    margin: 0 auto;
-}
-label, input {
-    display: block;
-    margin-bottom: 10px;
+header{
+    background-color: purple;
+    padding: 5px;
 }
 
+section{
+    background-color: red;
+    padding: 5px;
+}
+
+section.feature-box{
+    background-color: yellow;
+}
+
+section.feature-box.div{
+    background-color: aqua;
+}
+
+footer{
+    background-color: blue;
+    padding: 5px;
+}

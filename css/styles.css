@@ -42,6 +42,13 @@ a{
     padding: 50px;
 }
 
+.register-section-background{
+    background-image: url("../images/homesectionpic.jpg");
+    background-repeat: none;
+    background-size: 100%;
+    padding: 50px; 
+}
+
 footer{
     position: absolute;
     bottom: 0;

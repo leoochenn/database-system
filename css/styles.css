@@ -29,17 +29,30 @@ a{
 }
 
 section{
+    /*
     background-image: url("../images/sectionpic.jpg");
     background-repeat: none;
     background-size: 100%;
     padding: 50px;
+    */
+}
+
+.index-section-background{
+    background-image: url("../images/indexsectionpic.jpg");
+    background-repeat: none;
+    background-size: 100%;
+    padding: 50px; ba
+}
+
+home-section-background{
+    background-image: url("../images/homesectionpic.jpg");
 }
 
 
 
 footer{
     position: absolute;
-    bottom: 0;
+    ottom: 0;
     width: 100%;
     text-align: center;
 }

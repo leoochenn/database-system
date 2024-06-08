@@ -27,6 +27,9 @@ a{
     color: white;
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
 
 .index-section-background{
     background-image: url("../images/indexsectionpic.jpg");
@@ -40,6 +43,20 @@ a{
     background-repeat: none;
     background-size: 100%;
     padding: 50px;
+}
+
+.register-section-background{
+    background-image: url("../images/homesectionpic.jpg");
+    background-repeat: none;
+    background-size: 100%;
+    padding: 50px; 
+}
+
+.login-section-background{
+    background-image: url("../images/homesectionpic.jpg");
+    background-repeat: none;
+    background-size: 100%;
+    padding: 50px;  
 }
 
 footer{

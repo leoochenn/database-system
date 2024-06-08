@@ -16,9 +16,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Connect to the database (replace with your database credentials)
     $servername = "localhost";
-    $username = "username";
-    $password = "password";
-    $dbname = "your_database_name";
+    $username = "root";
+    $password = "";
+    $dbname = "41097A011";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 

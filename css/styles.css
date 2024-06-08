@@ -1,6 +1,8 @@
 body{
     background: black;
     color: white;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 header{
@@ -8,6 +10,13 @@ header{
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 10px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul{
@@ -23,10 +32,14 @@ li{
     padding-left: 0%;
 }
 
+.logout{
+    margin-right: auto;
+}
 a{
     color: white;
     text-decoration: none;
 }
+
 a:hover{
     text-decoration: underline;
 }

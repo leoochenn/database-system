@@ -31,7 +31,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO users (email, password) VALUES ('$email', '$hashedPassword')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
+        header("Location: ../pages/login.html");
+        exit;
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }

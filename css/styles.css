@@ -28,31 +28,23 @@ a{
     text-decoration: none;
 }
 
-section{
-    /*
-    background-image: url("../images/sectionpic.jpg");
-    background-repeat: none;
-    background-size: 100%;
-    padding: 50px;
-    */
-}
-
 .index-section-background{
     background-image: url("../images/indexsectionpic.jpg");
     background-repeat: none;
     background-size: 100%;
-    padding: 50px; ba
+    padding: 50px;
 }
 
-home-section-background{
+.home-section-background{
     background-image: url("../images/homesectionpic.jpg");
+    background-repeat: none;
+    background-size: 100%;
+    padding: 50px;
 }
-
-
 
 footer{
     position: absolute;
-    ottom: 0;
+    bottom: 0;
     width: 100%;
     text-align: center;
 }

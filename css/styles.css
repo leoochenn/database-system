@@ -1,15 +1,45 @@
+body{
+    background: black;
+    color: white;
+}
+
+header{
+    background-image: url("../images/bumbells.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10px;
+}
+
 ul{
-    list-style: none;   
+    display: flex;
 }
 
 li{
     list-style: none;
+    padding-left: 5%;
 }
+
+.firstOne{
+    padding-left: 0%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
 section{
-    background:gold;
+    background-image: url("../images/sectionpic.jpg");
+    background-repeat: none;
+    background-size: 100%;
+    padding: 50px;
 }
+
 
 
 footer{
-    background:lime;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
